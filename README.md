@@ -1,7 +1,7 @@
 # Shopping Receipt
 ### Simple shopping receipt program in Java8 using Zulu 1.8 and JUnit for testing.
 ## Objective
-Write a program to print receipt for a shopping cart including sales tax.
+Print receipt for a shopping cart including sales tax.
 
 Customers shop from different states of US, and sales tax is applied based on location and product category.
 
@@ -9,7 +9,6 @@ Sales tax = roundup(price * quantity * sales tax rate)
 
 Certain product categories are exempt from sales tax (means tax will be 0), and sales tax amount should be rounded up to the nearest 0.05 (e.g. 1.13->1.15, 1.16->1.20, 1.151->1.20)
 
-The interactive UI is not required, at minimum you can implement code method and use parameters as input. or read input value from file.
 ## Input
 The input of the program includes: product name, price, quantity and location of the purchase.
 
